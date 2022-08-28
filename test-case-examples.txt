@@ -5,7 +5,10 @@ Test case: Verify icons for the last conversation.
 3. Expand last conversation.
 4. Verify displayed icons.
 
-Expected: 3 icons are displayed for the last conversation: 'last', 'top', 'active'
+Expected: 3 icons are displayed for the last conversation: 'last', 'top', 'active'.
+'last' icon has the tooltip "This is the last conversation in the pool".
+'top' icon has the tooltip "With current sorting preferences this conversation is displayed on top of the list"
+'active' icon has the tooltip "Last message of this conversation was added within last 5 minutes"
 
 Test case: Verify conversation status change after archiving a conversation.
 
