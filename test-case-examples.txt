@@ -2,7 +2,7 @@ Test case: Verify icons for the last conversation.
 
 1. Open an application.
 2. Navigate to the "Messages" tab.
-3. Expand last conversation.
+3. Expand the last conversation.
 4. Verify displayed icons.
 
 Expected: 3 icons are displayed for the last conversation: 'last', 'top', 'active'.
@@ -15,7 +15,7 @@ Test case: Verify conversation status change after archiving a conversation.
 1. Open an application.
 2. Navigate to the "Messages" tab.
 3. Expand any active conversation.
-4. Click 'Archive' button in the top right corner.
+4. Click the 'Archive' button in the top right corner.
 5. Verify conversation status in the status panel.
 
-Expected: conversation status should chenge to "Archived". Conversation is greyed out.
+Expected: conversation status should change to "Archived". Conversation is grayed out.
