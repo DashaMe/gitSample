@@ -1,0 +1,8 @@
+Test case: Icons verification for the last conversation.
+
+1.Open an application.
+2. Navigate to the "Messages" tab.
+3. Expand last conversation.
+4. Verify displayed icons.
+
+Expected: 3 icons are displayed for the last conversation: 'last', 'top', 'active'
