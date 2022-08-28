@@ -1,3 +1,24 @@
+Priority 1, Severity Blocker
+401 Unauthorized error is displayed after login.
+
+Steps to reproduce:
+1. Open login page.
+2. Input valid user credentials.
+3. Click "Login button".
+
+Description of error:
+401 Unauthorized error is displayed. Please see attached log.
+
+Expected:
+User is successfully landed on the start page. User should have access to main tabs after login.
+
+Attachment:
+HTTP/1.1 401 Unauthorized
+Date: Wed, 21 Oct 2015 07:28:00 GMT
+WWW-Authenticate: Basic realm="Access to staging site"
+
+_______________________________________________________________________________________________________
+Priority 3, Severity minor
 The "Save as template" button is not fully visible on the screen width 1000px or less.
 
 Steps to reproduce:
@@ -8,9 +29,11 @@ Steps to reproduce:
 5. Click 'Next' button.
 6. Verify "Save as template" button.
 
-Description of error: "Save as template" button is covered by form fields and not fully visible on small screens.
+Description of error: 
+"Save as template" button is covered by form fields and not fully visible on small screens.
 
-Expected result: based on documentation "Save as template" button should be fully visible and actionable for all supported browsers, starting from minimal supported width of 777px.
+Expected result: 
+Based on documentation "Save as template" button should be fully visible and actionable for all supported browsers, starting from minimal supported width of 777px.
 (Please refer to the main design document #5 p.15 and "Resolution guidelines" p.3).
 
 Notes: should be re-tested for all supported browsers and device types: Chrome, Firefox + Laptop, Tablet.
